@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Madras Magic</title>
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <!-- aos library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- css link -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- mobile link -->
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <!-- media query link -->
+    <link rel="stylesheet" href="./css/mediaQuery.css" />
+  </head>
+  <body>
+    <!-- Header section starts-->
+
+    <header>
+      <!-- PreFooter section starts -->
+
+      <div class="preFooter">
+        <div class="dine">
+          <h3>DINE-IN / TAKEAWAY</h3>
+          <div class="switch">
+            <div class="switch_btn" onclick="changeColor()"></div>
+          </div>
+
+          <h3 class="delivery">DELIVERY</h3>
+          <label>
+            <input class="search" type="search" placeholder="Search here..." />
+          </label>
+        </div>
+        <div class="connect">
+          <div>
+            <h3><i class="fa-solid fa-gift"></i>DEALS</h3>
+          </div>
+          <div>
+            <h3><i class="fa-solid fa-user"></i>LOGIN</h3>
+          </div>
+          <div>
+            <h3><i class="fa-solid fa-cart-shopping"></i>CART</h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- PreFooter section ends -->
+
+      <!-- Navbar section starts -->
+
+      <div class="container">
+        <a href="#" class="newLogo">Madras Magic</a>
+        <nav class="nav">
+          <ul id="menu_item">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#blogs">Blogs</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <!-- <i class="fa-solid fa-bars" id="bars"></i> -->
+        <!-- Hamburger starts -->
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <!-- Hamburger ends -->
+      </div>
+
+      <!-- Navbar section ends -->
+    </header>
+
+    <!-- Header section ends-->
+
+    <!-- Hero section starts -->
+
+    <section class="hero" id="home">
+      <div class="hero_img" data-aos="zoom-in">
+        <img src="./images/burger3.png" alt="heroImg" />
+      </div>
+      <div class="hero_txt" data-aos="fade-left">
+        <h2>Food, Friends and Fun!</h2>
+        <h1>
+          You can’t spell <span>“Friends”</span> without <span>“Fries”</span>
+        </h1>
+        <div class="btn">
+          <button class="hero_btn">Explore More</button>
+          <button class="hero_btn">Order Now</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hero section ends -->
+
+    <!-- Hero bg section starts -->
+
+    <div class="hero_bg">
+      <div data-aos="fade-down">
+        <h1 class="hero_bg_txt">Let The Party Begin!</h1>
+        <h2 class="hero_bg_txt">The Ultimate Cheat Meal..</h2>
+        <button class="hero_btn">Download App</button>
+      </div>
+    </div>
+
+    <!-- Hero bg section ends -->
+
+    <!-- special section starts -->
+
+    <div class="special" id="about">
+      <div class="special_points" data-aos="fade-right">
+        <div class="points">
+          <i class="fa-solid fa-utensils"></i>
+          <div class="points_txt">
+            <h2>Amazing Taste</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem
+              ipsum dolor, sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+        <div class="points">
+          <i class="fa-solid fa-indian-rupee-sign"></i>
+          <div class="points_txt">
+            <h2>Less Price</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem
+              ipsum dolor, sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+        <div class="points">
+          <i class="fa-solid fa-award"></i>
+          <div class="points_txt">
+            <h2>Award Winning Feedback</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem
+              ipsum dolor, sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+        <div class="points">
+          <i class="fa-solid fa-truck"></i>
+          <div class="points_txt">
+            <h2>Free Delivery</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem
+              ipsum dolor, sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="special_img" data-aos="fade-left">
+        <img src="./images/party.jpeg" alt="party" />
+      </div>
+    </div>
+
+    <!-- special section ends -->
+
+    <!-- Amazing Food section starts -->
+
+    <div class="amazing_food" id="products">
+      <h1 class="heading_txt">Our Amazing Food Items</h1>
+      <div class="food_img" data-aos="fade-up">
+        <div class="food_images">
+          <img src="./images/food1.jpeg" alt="foods" />
+        </div>
+        <div class="food_images">
+          <img src="./images/food2.jpeg" alt="foods" />
+        </div>
+        <div class="food_images">
+          <img src="./images/food3.jpeg" alt="foods" />
+        </div>
+        <div class="food_images">
+          <img src="./images/food4.jpeg" alt="foods" />
+        </div>
+        <div class="food_images">
+          <img src="./images/food5.jpeg" alt="foods" />
+        </div>
+        <div class="food_images">
+          <img src="./images/food6.jpeg" alt="foods" />
+        </div>
+        <div class="food_images">
+          <img src="./images/food7.jpeg" alt="foods" />
+        </div>
+        <div class="food_images">
+          <img src="./images/food8.jpeg" alt="foods" />
+        </div>
+        <div class="food_images">
+          <img src="./images/food9.jpeg" alt="foods" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Amazing Food section ends -->
+
+    <!-- Review section starts -->
+
+    <div class="review" id="reviews">
+      <h1 class="heading_txt">Our Happy Customers</h1>
+      <div class="review_card">
+        <div class="reviews" data-aos="zoom-in-left">
+          <h2>Tom Cruise</h2>
+          <p>Delicious Food in the World</p>
+        </div>
+        <div class="reviews" data-aos="zoom-in-left">
+          <h2>Angelina Jolie</h2>
+          <p>Awesome Tasty Burger</p>
+        </div>
+        <div class="reviews" data-aos="zoom-in-left">
+          <h2>Johnny Depp</h2>
+          <p>Super Duper Pizzas</p>
+        </div>
+        <div class="reviews" data-aos="zoom-in-left">
+          <h2>Kate Winslet</h2>
+          <p>Amazing Dine Experience</p>
+        </div>
+        <div class="reviews" data-aos="zoom-in-right">
+          <h2>Sylvester Stallone</h2>
+          <p>Healthy & Tasty</p>
+        </div>
+        <div class="reviews" data-aos="zoom-in-right">
+          <h2>Charlize Theron</h2>
+          <p>I Just Love It..</p>
+        </div>
+        <div class="reviews" data-aos="zoom-in-right">
+          <h2>Vin Diesel</h2>
+          <p>Fast & Furious Food</p>
+        </div>
+        <div class="reviews" data-aos="zoom-in-right">
+          <h2>Nicole Kidman</h2>
+          <p>Out of the World Taste</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Review section ends -->
+
+    <!-- Blogs section starts -->
+
+    <div class="blogs" id="blogs">
+      <h1 class="heading_txt">Our Blogs</h1>
+      <div class="blog">
+        <div class="blog_card" data-aos="flip-down">
+          <img src="./images/best1.jpeg" alt="best" />
+          <h2>Cheese Overload Burger</h2>
+          <h5>
+            It’s burger season! Time to break out the grill or cast iron pan, if
+            that’s what you make your burgers in, and get your burger on. If
+            you’re doing burgers I hope you get a chance to make a Juicy Lucy.
+          </h5>
+          <button class="hero_btn">Read More</button>
+        </div>
+        <div class="blog_card" data-aos="flip-up">
+          <img src="./images/best2.jpeg" alt="best" />
+          <h2>Healthy Vegetable Salad</h2>
+          <h5>
+            It’s so pretty & it just gets me in my fall feels. It has all the
+            textures and flavors & is full of healthy stuff! It’s the perfect
+            side for Thanksgiving or any special fall/winter meal. Heck, I eat
+            it as a meal in itself all the time.
+          </h5>
+          <button class="hero_btn">Read More</button>
+        </div>
+        <div class="blog_card" data-aos="flip-down">
+          <img src="./images/best3.jpeg" alt="best" />
+          <h2>Signature Jumbo Combo</h2>
+          <h5>
+            My ultimate Signature Dishes has been a bit of a challenge. It’s
+            hard enough going to a restaurant and choosing from a menu – such an
+            impossible task! But, this is my Signature Jumbo Combo.
+          </h5>
+          <button class="hero_btn">Read More</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Blogs section ends -->
+
+    <!-- Footer section starts -->
+
+    <footer id="contact">
+      <div class="footer">
+        <div class="footer_first" data-aos="zoom-in-up">
+          <h3>Download Our App</h3>
+          <i class="fa-brands fa-google-play"></i>
+          <i class="fa-brands fa-apple"></i>
+        </div>
+        <div class="footer_second" data-aos="zoom-in-up">
+          <h3>Contact</h3>
+          <p>Help & Support</p>
+          <p>Customer Care</p>
+          <p>Careers</p>
+          <p>Franchising</p>
+        </div>
+        <div class="footer_third" data-aos="zoom-in-up">
+          <h3>Legal</h3>
+          <p>Terms & Conditions</p>
+          <p>Privacy Policy</p>
+        </div>
+        <div class="footer_forth" data-aos="zoom-in-up">
+          <h3>Payment Method</h3>
+          <i class="fa-brands fa-cc-visa"></i>
+          <i class="fa-brands fa-google-pay"></i>
+          <i class="fa-brands fa-cc-paypal"></i>
+          <i class="fa-brands fa-apple-pay"></i>
+        </div>
+      </div>
+      <hr />
+      <div class="footer_copyright">
+        <p>
+          &copy; 2023 Friends Corner created by
+          <span> Raj Vishwnathan</span> All Rights Reserved.
+        </p>
+        <div class="social">
+          <i class="fa-brands fa-facebook-square"></i>
+          <i class="fa-brands fa-twitter-square"></i>
+          <i class="fa-brands fa-instagram-square"></i>
+          <i class="fa-brands fa-youtube-square"></i>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Footer section ends -->
+
+    <!-- aos js link -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- INITIALIZE AOS: -->
+    <script>
+      AOS.init({
+        duration: 1500,
+        delay: 400,
+      });
+    </script>
+    <!-- js link -->
+    <script src="./js/script.js"></script>
+    <script src="./js/mobile.js"></script>
+  </body>
+</html>

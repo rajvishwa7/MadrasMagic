@@ -1,0 +1,346 @@
+@media screen and (max-width: 1175px) {
+  .connect > div:nth-child(1),
+  .connect > div:nth-child(2) {
+    display: none;
+  }
+  .nav ul {
+    gap: 1.5rem;
+    margin-right: 1.5rem;
+  }
+  .hero {
+    padding: 2rem 0 3rem 0;
+  }
+  .hero_img {
+    margin-left: 10%;
+  }
+  .hero_txt {
+    width: 40%;
+    margin-right: 5%;
+  }
+  .points i {
+    margin-right: 1rem;
+    width: 15%;
+  }
+  .food_images {
+    width: 25%;
+    margin: 1rem;
+  }
+  .reviews h2 {
+    font-size: 1.1rem;
+  }
+  .reviews p {
+    font-size: 0.8rem;
+  }
+  .blog_card > h2 {
+    font-size: 1.2rem;
+  }
+  .blog_card > h5 {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .preFooter {
+    padding: 0.5rem 0.5rem;
+    font-size: 0.7rem;
+  }
+  .hamburger {
+    display: block;
+    margin-right: 0.5rem;
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(10px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-12px) rotate(-45deg);
+  }
+  #menu_item {
+    position: fixed;
+    left: -100%;
+    top: 119px;
+    flex-direction: column;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    /* background-color: #512314; */
+    width: 100%;
+    text-align: center;
+    transition: 0.5s;
+    padding: 1rem 0;
+  }
+  ul li {
+    font-size: 1.2rem;
+    padding: 0.5rem 0;
+  }
+  ul li a {
+    color: white;
+  }
+  #menu_item.active {
+    left: 0;
+  }
+  .hero {
+    flex-direction: column;
+  }
+  .hero_img {
+    width: 70%;
+    margin: 0;
+    text-align: center;
+  }
+  .hero_txt {
+    width: 80%;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .hero_bg_txt {
+    font-size: 2.5rem;
+  }
+  .special {
+    flex-direction: column-reverse;
+  }
+  .special_img {
+    width: 100%;
+  }
+  .special_points {
+    width: 100%;
+  }
+  .points {
+    margin: 3rem 3rem 2rem 3rem;
+  }
+  .points i {
+    font-size: 3rem;
+    margin-right: 3rem;
+    width: 20%;
+  }
+  .points_txt h2 {
+    font-size: 2rem;
+  }
+  .points_txt p {
+    font-size: 1.2rem;
+  }
+  .food_images {
+    width: 45%;
+  }
+  .food_images:last-child {
+    display: none;
+  }
+  .review_card {
+    padding: 2rem 0;
+  }
+  .reviews {
+    width: 40%;
+    margin: 2rem;
+  }
+  .reviews h2 {
+    font-size: 1.4rem;
+  }
+  .reviews p {
+    font-size: 1.2rem;
+  }
+  footer hr {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #menu_item {
+    top: 77px;
+  }
+  .hero {
+    margin-top: 6rem;
+  }
+  .hero_img {
+    width: 70%;
+    text-align: center;
+  }
+  .hero_txt {
+    width: 80%;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .points {
+    margin: 3rem 3rem 2rem 3rem;
+  }
+  .points i {
+    font-size: 3rem;
+    margin-right: 3rem;
+    width: 22%;
+  }
+  .points_txt h2 {
+    font-size: 1.7rem;
+  }
+  .points_txt p {
+    font-size: 1rem;
+  }
+  .food_images {
+    width: 40%;
+  }
+  .reviews {
+    width: 40%;
+    margin: 1.5rem;
+  }
+  .reviews h2 {
+    font-size: 1.2rem;
+  }
+  .reviews p {
+    font-size: 1rem;
+  }
+  .blog_card:nth-child(3) {
+    display: none;
+  }
+  .blog_card {
+    width: 45%;
+    padding-bottom: 1rem;
+  }
+  .blog_card button {
+    padding: 0.5rem 0.8rem;
+    font-size: 0.7rem;
+    border-radius: 10px;
+  }
+  .footer_first h3,
+  .footer_second h3,
+  .footer_third h3,
+  .footer_forth h3 {
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+  }
+  .footer_first i {
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+  }
+
+  .footer_third,
+  .footer_forth {
+    margin-top: 1.5rem;
+  }
+  .footer_second p,
+  .footer_third p {
+    font-size: 1rem;
+    margin-left: 1.5rem;
+    padding: 0.3rem 0;
+  }
+  .footer_forth i {
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+  }
+  .social i {
+    font-size: 1.3rem;
+  }
+  .footer_copyright p {
+    font-size: 0.7rem;
+  }
+  .footer_first,
+  .footer_second,
+  .footer_third,
+  .footer_forth {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .newLogo {
+    margin-left: 0.5rem;
+  }
+  .hero_img {
+    width: 80%;
+  }
+  .hero_txt {
+    width: 80%;
+    font-size: 1rem;
+  }
+  .hero_btn {
+    padding: 0.5rem 0.8rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+  }
+  .hero_bg {
+    padding: 4rem 1rem;
+  }
+  .hero_bg_txt {
+    font-size: 1.8rem;
+  }
+  .special {
+    padding: 5rem 1rem;
+  }
+  .points {
+    flex-direction: column;
+    margin: 2rem;
+  }
+  .points i {
+    font-size: 2rem;
+    width: 20%;
+    margin-right: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  .points_txt h2 {
+    font-size: 1.3rem;
+  }
+  .points_txt p {
+    font-size: 0.8rem;
+    text-align: justify;
+  }
+  .heading_txt {
+    font-size: 2rem;
+  }
+  .food_images {
+    width: 90%;
+  }
+  .food_images:nth-child(2),
+  .food_images:nth-child(5),
+  .food_images:nth-child(8) {
+    display: none;
+  }
+  .reviews {
+    width: 90%;
+  }
+  .reviews:nth-child(2),
+  .reviews:nth-child(4),
+  .reviews:nth-child(6),
+  .reviews:nth-child(8) {
+    display: none;
+  }
+  .reviews h2 {
+    font-size: 1.5rem;
+  }
+  .reviews p {
+    font-size: 1.2rem;
+  }
+  .blog_card {
+    width: 90%;
+    margin-bottom: 2rem;
+  }
+  .blog_card button {
+    padding: 0.5rem 0.8rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+  }
+  .footer {
+    flex-direction: column;
+  }
+  .footer_first,
+  .footer_second,
+  .footer_third,
+  .footer_forth {
+    width: 100%;
+  }
+  .footer_first h3,
+  .footer_second h3,
+  .footer_third h3,
+  .footer_forth h3 {
+    font-size: 1.5rem;
+  }
+  .footer_first i {
+    padding-bottom: 1rem;
+  }
+  .footer_first i,
+  .footer_forth i {
+    font-size: 1.5rem;
+  }
+  .footer_copyright {
+    flex-direction: column-reverse;
+  }
+  .footer_copyright i {
+    padding-bottom: 0.5rem;
+  }
+}
