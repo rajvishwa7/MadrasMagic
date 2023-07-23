@@ -1,5 +1,5 @@
 
-**Madras Magic is an Static Website**
+**Madras Magic is an Fast Food Restaurant - Static Website**
 
 ⚙️ **Tech Stack:**
 HTML5, CSS3, JavaScript, AOS library.
